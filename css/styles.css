@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/*----header----*/
+
+
+header {
+    color: #ffffff;
+    background-color: #1B500D;
+    position: sticky;
+    top: 0px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.header__titulo {
+    font-size: 1.8rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.navbar__list {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar__item {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+/*----main----*/
+
+
+.presentacion__titulo {
+    color: #1B500D;
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 50px 15px 0px 15px;
+}
+
+.presentacion__bajada {
+    color: #8CB369;
+    font-size: 1rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0px 15px 15px 15px;
+}
+
+.presentacion_txt {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 0px 15px 10px 15px;
+    width: 50vw;
+}
+
+.presentacion_img {
+    width: 300px;
+    height: auto;
+    margin: 50px 15px 10px 15px;
+}
+
+.valores {
+    background-color: #BAD1A5;
+    width: auto;
+    height: auto;
+    padding: 20px 60px;
+    margin-top: 50px;
+}
+
+.valores__titulo {
+    color: #1B500D;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 20px 0 10px;
+}
+
+.valores__txt {
+    color: #1B500D;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+/*----servicios----*/
+
+.titulo-secciones {
+    text-align: center;
+    color: #1B500D;
+    height: 10vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding: 30px 15px 0px 15px;
+}
+
+.servicios {
+    width: 100%;
+    height: 30%;
+    padding: 30px 50px 0px;
+    justify-content: center;
+}
+
+.servicios__titulo {
+    color: #1B500D;
+    font-size: 1.3rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0px 15px 10px;
+}
+
+.servicios__txt {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 0px 15px 10px 15px;
+    width: 50vw;
+}
+
+.servicios__img {
+    width: 50vw;
+    height: auto;
+    margin: 10px 15px;
+}
+
+/*---promociones---*/
+
+.fondo-verde {
+    background-color: #BAD1A5;
+    background-size: cover;
+}
+
+.tarjeta {
+    background-color: #ffffff;
+    width: 380px;
+    height: 540px;
+    border-radius: 20px;
+    align-content: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 15px;
+    margin: 50px 30px 0px 30px;
+}
+
+.tarjeta__img {
+    width: 320px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarjeta__titulo {
+    text-align: left;
+    color: #1B500D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 20px 15px 5px 15px;
+}
+
+.tarjeta__txt {
+    color: #1B500D;
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 3px 15px;
+}
+
+.tarjeta__precio {
+    text-align: center;
+    color: #1B500D;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+.tarjeta__btn {
+    color: #ffffff;
+    background-color: #1B500D;
+    height: 50px;
+    width: 100px;
+    padding: 12px 0;
+    margin-top: 18px;
+    border-radius: 30px;
+    align-self: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.tarjeta__btn:hover {
+    background-color: #8CB369;
+    color: #1B500D;
+}
+
+/*----galeria----*/
+
+.contenedor-galeria {
+    padding: 20px;
+}
+
+.img-galeria {
+    width: auto;
+    height: 300px;
+    margin: 20px 50px;
+}
+
+/*----contacto----*/
+
+.contacto {
+    padding: 30px;
+}
+
+.contacto__tarjeta {
+    background-color: #ffffff;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    align-content: center;
+    overflow: hidden;
+    padding: 30px 30px;
+    margin: 0px 30px 0px 30px;
+}
+
+.contacto__titulo {
+    text-align: left;
+    color: #1B500D;
+    height: 6vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+}
+
+.contacto__txt {
+    text-align: left;
+    color: #000000;
+    height: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    padding: 0px 15px;
+    margin-bottom: 7px;
+}
+
+.contacto__img {
+    padding: 0px 15px;
+    width: 500px;
+    height: 350px;
+}
+
+.contacto__btn {
+    color: #ffffff;
+    background-color: #1B500D;
+    height: 50px;
+    width: 100px;
+    padding: 12px 0;
+    margin-top: 18px;
+    border-radius: 30px;
+    align-self: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.contacto__btn:hover {
+    background-color: #8CB369;
+    color: #1B500D;
+}
+
+/*----footer----*/
+
+.pie {
+    background-color: #1B500D;
+    position: sticky;
+    top: 0px;
+    height: auto;
+    padding: 20px 20px;
+}
+
+.pie__titulo {
+    color: #ffffff;
+    font-size: 0.7rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.pie__txt {
+    color: #ffffff;
+    font-size: 0.7rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.legales {
+    background-color: #8CB369;
+    height: 20px;
+    width: 100%;
+}
+
+.legales__txt {
+    font-size: 0.6rem;
+    color: #1B500D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3px;
+}
