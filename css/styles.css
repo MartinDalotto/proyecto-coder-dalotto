@@ -4,30 +4,78 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-}
-
 ul,
-ol {
+li {
     list-style: none;
 }
 
-/*----header----*/
-
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 header {
-    color: #ffffff;
     background-color: #1B500D;
     position: sticky;
-    top: 0px;
-    height: 10vh;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
 }
+
+.navbar .header-titulo{
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.navbar-nav .nav-item .header-nav{
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.presentacion-titulo {
+    color: #1B500D;
+    font-size: 2rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.presentacion-bajada {
+    color: #8CB369;
+    font-size: 1.4rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.presentacion-txt {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+/*----
+
+    header {
+        color: #ffffff;
+        background-color: #1B500D;
+        position: sticky;
+        top: 0px;
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+
 
 .header__titulo {
     font-size: 1.8rem;
@@ -308,14 +356,17 @@ header {
 /*----footer----*/
 
 .pie {
-    background-color: #1B500D;
     position: sticky;
     top: 0px;
-    height: auto;
+    height: 200px;
+}
+
+.pie-info{
+    background-color: #1B500D;
     padding: 20px 20px;
 }
 
-.pie__titulo {
+.pie-titulo {
     color: #ffffff;
     font-size: 0.7rem;
     text-align: left;
@@ -323,7 +374,7 @@ header {
     font-weight: 500;
 }
 
-.pie__txt {
+.pie-txt {
     color: #ffffff;
     font-size: 0.7rem;
     text-align: left;
@@ -331,17 +382,24 @@ header {
     font-weight: 200;
 }
 
-.legales {
-    background-color: #8CB369;
-    height: 20px;
-    width: 100%;
+.pie-mail {
+    color: #ffffff;
+    font-size: 0.7rem;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
 }
 
-.legales__txt {
+.pie-legales{
+    background-color: #8CB369;
+    height: 25px;
+}
+
+.legales-txt {
     font-size: 0.6rem;
     color: #1B500D;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     text-align: center;
-    padding-top: 3px;
+    padding-top: 6px;
 }
