@@ -57,9 +57,40 @@ header {
 .presentacion-txt {
     color: #000000;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: left;
 }
+
+.valores {
+    background-color: #BAD1A5;
+    padding: 20px 60px;
+    margin-top: 50px;
+}
+
+.valores__icono{
+    color: #1B500D;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px;
+}
+
+.valores__titulo {
+    color: #1B500D;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: 15px 0 10px;
+}
+
+.valores__txt {
+    color: #1B500D;
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
 
 /*----
 
@@ -99,7 +130,7 @@ header {
 }
 
 
-/*----main----*/
+/*----main
 
 
 .presentacion__titulo {
@@ -135,30 +166,7 @@ header {
     margin: 50px 15px 10px 15px;
 }
 
-.valores {
-    background-color: #BAD1A5;
-    width: auto;
-    height: auto;
-    padding: 20px 60px;
-    margin-top: 50px;
-}
 
-.valores__titulo {
-    color: #1B500D;
-    font-size: 1rem;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    margin: 20px 0 10px;
-}
-
-.valores__txt {
-    color: #1B500D;
-    font-size: 0.9rem;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-}
 
 /*----servicios----*/
 
@@ -358,7 +366,6 @@ header {
 .pie {
     position: sticky;
     top: 0px;
-    height: 200px;
 }
 
 .pie-info{
@@ -388,6 +395,10 @@ header {
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+}
+
+.pie-redes{
+    color: #ffffff;
 }
 
 .pie-legales{
