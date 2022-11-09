@@ -1,0 +1,36 @@
+footer {
+    margin: 0;
+}
+
+.pie-info {
+    background-color: $color-primario;
+    padding: 20px 20px;
+}
+
+.pie-titulo {
+    color: $color-terciario;
+    @include text(left, 0.7rem, 500);
+}
+
+.pie-txt {
+    @include text-footer;
+}
+
+.pie-mail {
+    @include text-footer;
+}
+
+.pie-redes {
+    color: $color-terciario;
+}
+
+.pie-legales {
+    background-color: $color-secundario;
+    height: 25px;
+}
+
+.legales-txt {
+    color: $color-primario;
+    @include text(center, 0.6rem, 500);
+    padding-top: 6px;
+}

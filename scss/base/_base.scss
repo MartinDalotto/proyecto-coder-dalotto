@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.titulo-secciones {
+    color: $color-primario;
+    @include text(center, 2rem, 700);
+    padding: 30px 15px 0px 15px;
+}
+
+.fondo-verde {
+    background-color: $color-quinto;
+    background-size: cover;
+}

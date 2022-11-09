@@ -1,0 +1,11 @@
+.navbar .header-titulo {
+    color: $color-terciario;
+    @include text(left, 1.5rem, 700);
+    margin: 0px;
+}
+
+.navbar-nav .nav-item .header-nav {
+    color: $color-terciario;
+    font-size: 1rem;
+    font-weight: 300;
+}

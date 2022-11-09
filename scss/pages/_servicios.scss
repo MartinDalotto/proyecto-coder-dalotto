@@ -1,0 +1,9 @@
+.servicios-titulo {
+    color: $color-primario;
+    @include text(left, 1.4rem, 600);
+}
+
+.servicios-txt {
+    color: $color-cuarto;
+    @include text(left, 1.1rem, 300);
+}

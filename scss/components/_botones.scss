@@ -1,0 +1,20 @@
+.tarjeta {
+    &__btn {
+        @include boton;
+        @include text(center, 0.9rem, 300);
+
+    }
+
+    &__btn:hover {
+        @include boton-hover;
+    }
+}
+
+.contacto-btn {
+    @include boton;
+    @include text(center, 0.8rem, 300);
+}
+
+.contacto-btn:hover {
+    @include boton-hover;
+}

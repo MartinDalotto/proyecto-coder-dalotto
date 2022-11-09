@@ -1,0 +1,31 @@
+.presentacion-titulo {
+    color: $color-primario;
+    @include text(left, 2rem, 700);
+}
+
+.presentacion-bajada {
+    color: $color-secundario;
+    @include text(left, 1.4rem, 600);
+}
+
+.presentacion-txt {
+    color: $color-cuarto;
+    @include text(left, 1.1rem, 300);
+}
+
+.valores {
+    background-color: $color-quinto;
+    padding: 20px 60px;
+    margin-top: 50px;
+}
+
+.valores-titulo {
+    color: $color-primario;
+    @include text(center, 1rem, 700);
+    margin: 15px 0 10px;
+}
+
+.valores-txt {
+    color: $color-primario;
+    @include text(center, 0.9rem, 300);
+}

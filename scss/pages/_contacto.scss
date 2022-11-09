@@ -1,0 +1,22 @@
+.contacto {
+    padding: 30px;
+}
+
+.titulo-secciones-contacto {
+    color: $color-primario;
+    @include text(left, 2rem, 700);
+    padding: 0px 15px;
+    margin-bottom: 10px;
+}
+
+.contacto-txt {
+    color: $color-cuarto;
+    @include text(left, 0.9rem, 300);
+    margin-bottom: 8px;
+}
+
+.contacto-img {
+    padding: 0px 15px;
+    width: 100%;
+    height: 600px;
+}

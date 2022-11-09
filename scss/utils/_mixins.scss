@@ -1,0 +1,40 @@
+@mixin dflex($direction, $align) {
+    display: flex;
+    flex-direction: $direction;
+    align-content: $align;
+}
+
+@mixin text($align, $size, $weight) {
+    text-align: $align;
+    font-size: $size;
+    font-weight: $weight;
+}
+
+@mixin text-footer {
+    color: $color-terciario;
+    font-size: 0.7rem;
+    text-align: left;
+    font-weight: 200;
+}
+
+@mixin boton {
+    color: $color-terciario;
+        background-color: $color-primario;
+        height: 50px;
+        width: 100px;
+        padding: 12px 0;
+        margin-top: 18px;
+        border: none;
+        border-radius: 30px;
+        align-self: center;
+}
+
+@mixin boton-hover {
+    background-color: $color-secundario;
+    color: $color-primario;
+    scale: 1.1;
+    transition: linear 400ms;    
+}
+
+
+
