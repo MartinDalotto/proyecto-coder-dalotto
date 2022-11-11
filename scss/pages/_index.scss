@@ -27,5 +27,5 @@
 
 .valores-txt {
     color: $color-primario;
-    @include text(center, 0.9rem, 300);
+    @include text(center, 0.9rem, 500);
 }
