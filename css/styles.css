@@ -1,4 +1,3 @@
-/*---reseteo---*/
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +16,6 @@ a {
   color: #ffffff;
 }
 
-/*---bases---*/
 .titulo-secciones {
   color: #1B500D;
   text-align: center;
@@ -31,14 +29,16 @@ a {
   background-size: cover;
 }
 
-/*---componentes---*/
-/*---header---*/
 header {
   background-color: #1B500D;
   position: sticky;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.navbar-toggler {
+  border: none;
 }
 
 .navbar .header-titulo {
@@ -55,7 +55,6 @@ header {
   font-weight: 300;
 }
 
-/*---footer---*/
 footer {
   margin: 0;
 }
@@ -103,7 +102,6 @@ footer {
   padding-top: 6px;
 }
 
-/*---tarjetas---*/
 .tarjeta {
   background-color: #ffffff;
   width: 400px;
@@ -156,7 +154,6 @@ footer {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.274);
 }
 
-/*---botones---*/
 .tarjeta__btn {
   color: #ffffff;
   background-color: #1B500D;
@@ -200,7 +197,6 @@ footer {
   transition: linear 400ms;
 }
 
-/*---iconos---*/
 .valores-icono {
   color: #1B500D;
   display: flex;
@@ -213,7 +209,6 @@ footer {
   margin-right: 8px;
 }
 
-/*---index---*/
 .presentacion-titulo {
   color: #1B500D;
   text-align: left;
@@ -253,10 +248,9 @@ footer {
   color: #1B500D;
   text-align: center;
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
-/*---servicios---*/
 .servicios-titulo {
   color: #1B500D;
   text-align: left;
@@ -271,7 +265,6 @@ footer {
   font-weight: 300;
 }
 
-/*---contacto---*/
 .contacto {
   padding: 30px;
 }
@@ -299,7 +292,6 @@ footer {
   height: 600px;
 }
 
-/*---galeria---*/
 .img-galeria {
   width: 100%;
   height: 100%;
