@@ -190,22 +190,6 @@ footer {
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.274);
 }
 
-.container .equipo:hover .imgsBox {
-  transform: translate(-3.5rem, -3.5rem);
-}
-
-.container .equipo:hover .insfo-equipo {
-  transform: translate(3.5rem, 3.5rem);
-}
-
-@media (max-width: 600px) {
-  .container .box:hover .info-equipo {
-    transform: translate(0, 3.5rem);
-  }
-  .container .box:hover .imgBox {
-    transform: translate(0, -3.5rem);
-  }
-}
 .tarjeta__btn {
   color: #ffffff;
   background-color: #1B500D;
